@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
@@ -5,7 +6,21 @@ module.exports = {
         './components/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
-        extend: {},
+		extend: {
+			colors: {
+				outlineGrey: {
+					50: '#F0F0F0',
+					100: '#999999'
+				}
+			}
+		},
+		fontFamily: {
+			'sans': ['Futura Condensed ExtraBold', 'sans-serif'],
+			'serif': ['PT Mono', 'serif']
+		},
+		letterSpacing: {
+			wide: '0.02em'
+		}
     },
     plugins: [],
 };
