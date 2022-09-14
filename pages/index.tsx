@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Content from '../components/atoms/Layout/Content';
-import FooterContainer from '../components/atoms/Layout/FooterContainer';
+import Footer from '../components/molecules/Footer';
 import Header from '../components/molecules/Header';
 
 const Home: NextPage = () => {
@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <>
             <Header/>
 			<Content>Content</Content>
-			<FooterContainer>Footer</FooterContainer>
+			<Footer/>
         </>
     );
 };

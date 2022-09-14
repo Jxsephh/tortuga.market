@@ -11,6 +11,9 @@ module.exports = {
 				outlineGrey: {
 					50: '#F0F0F0',
 					100: '#999999'
+				},
+				hyperlinkGrey: {
+					100: '#7A7A7A'
 				}
 			}
 		},

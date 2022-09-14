@@ -1,6 +1,6 @@
 import HeaderContainer from '../atoms/Layout/HeaderContainer';
 
-export default function Header() {
+export default function Header(): JSX.Element {
     return (
         <HeaderContainer>
             <div className="flex justify-between items-end w-full mx-8 -mt-8">
