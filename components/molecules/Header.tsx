@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <HeaderContainer>
             <div className="flex justify-between items-end w-full mx-8 -mt-8">
-                <div className="font-serif text-[34px] tracking-wide">
+                <div className="font-sans text-[34px] tracking-wide">
                     WELCOME
                 </div>
                 <button

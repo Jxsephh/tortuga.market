@@ -15,7 +15,7 @@ module.exports = {
 			}
 		},
 		fontFamily: {
-			'sans': ['Futura Condensed ExtraBold', 'sans-serif'],
+			'sans': ['Futura Condensed Extra Bold', 'sans-serif'],
 			'serif': ['PT Mono', 'serif']
 		},
 		letterSpacing: {
