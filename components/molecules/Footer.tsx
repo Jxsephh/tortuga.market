@@ -17,7 +17,7 @@ export default function Footer(): JSX.Element {
                 </p>
                 <div className="flex gap-3 mb-[17px]">
                     <button
-                        className="font-serif text-4 border rounded border-outlineGrey-100 py-3 px-[15px] hover:bg-outlineGrey-50 transition-all"
+                        className="font-serif text-4 border rounded border-outlineGrey-100 py-3 px-4 hover:bg-outlineGrey-50 transition-all"
                         onClick={() => {
                             console.log('left');
                         }}
@@ -26,7 +26,7 @@ export default function Footer(): JSX.Element {
                     </button>
 
                     <button
-                        className="font-serif text-4 border rounded border-outlineGrey-100 py-3 px-[15px] hover:bg-outlineGrey-50 transition-all"
+                        className="font-serif text-4 border rounded border-outlineGrey-100 py-3 px-4 hover:bg-outlineGrey-50 transition-all"
                         onClick={() => {
                             console.log('right');
                         }}
