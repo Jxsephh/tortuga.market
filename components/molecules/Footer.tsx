@@ -13,7 +13,7 @@ export default function Footer(): JSX.Element {
                     mint file
                 </button>
                 <p className="font-serif underline -mb-[19px] tracking-wide text-hyperlinkGrey-100 hover:cursor-pointer">
-                    public and "luxury" goods
+                    public and &quot;luxury&quot; goods
                 </p>
                 <div className="flex gap-3 mb-[17px]">
                     <button
