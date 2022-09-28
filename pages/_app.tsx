@@ -4,6 +4,7 @@ import Layout from '../components/atoms/Layout';
 import '@rainbow-me/rainbowkit/styles.css';
 import {
   getDefaultWallets,
+  lightTheme,
   RainbowKitProvider,
 } from '@rainbow-me/rainbowkit';
 import {
@@ -23,7 +24,7 @@ const { chains, provider } = configureChains(
   ]
 );
 const { connectors } = getDefaultWallets({
-  appName: 'My RainbowKit App',
+  appName: 'Tortuga Market',
   chains
 });
 const wagmiClient = createClient({
@@ -35,7 +36,15 @@ const wagmiClient = createClient({
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <WagmiConfig client={wagmiClient}>
-            <RainbowKitProvider chains={chains}>
+            <RainbowKitProvider 
+				chains={chains}
+				modalSize="compact"
+				theme={lightTheme({
+					accentColor: 'white',
+					accentColorForeground: 'black',
+					fontStack: 'rounded',
+					borderRadius: 'medium',
+				})}>
                 <Layout>
                     <Component {...pageProps} />
                 </Layout>
