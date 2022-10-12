@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import Layout from '../components/atoms/Layout';
 import '@rainbow-me/rainbowkit/styles.css';
 import {
   getDefaultWallets,
@@ -45,9 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 					fontStack: 'rounded',
 					borderRadius: 'medium',
 				})}>
-                <Layout>
                     <Component {...pageProps} />
-                </Layout>
             </RainbowKitProvider>
         </WagmiConfig>
     );
