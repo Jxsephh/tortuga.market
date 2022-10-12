@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                                     </button>
                                 </div>
                             </div>
-                            <button className="bg-black text-white text-xl font-serif p-4 rounded text-center w-full my-3">
+                            <button className="bg-black text-white text-xl font-serif p-4 rounded text-center w-full mt-3 mb-8">
                                 connect wallet
                             </button>
 							<div className="border border-black rounded flex flex-col gap-8"> 
